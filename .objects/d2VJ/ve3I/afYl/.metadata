@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Purchase Orders  Zoho Inventory",
+  "Type": "Screen",
+  "Id": "afYlnpCYxkqTodYbCRdGKw",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/afYlnpCYxkqTodYbCRdGKw",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/ve3IWrDsdUGbXOFQTBg_mw",
+  "Created": "2025-10-06T04:40:17.4335763Z",
+  "Updated": "2025-10-06T04:40:17.4335763Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

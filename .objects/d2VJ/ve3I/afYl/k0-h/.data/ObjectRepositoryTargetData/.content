@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Iq-d-U8Az0qmfkJhvmW4Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="d7185444-99fb-44a4-a30c-3a5125624239" CvType="AnyWordGroup" DesignTimeRectangle="1608, 695, 123, 20" FuzzySelectorArgument="&lt;webctrl id='template-html-shadow-host' tag='DIV' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='pcs-totals' shadowhostid='template-html-shadow-host' tag='TABLE' matching:class='fuzzy' fuzzylevel:class='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl parentid='tmp_total' shadowhostid='template-html-shadow-host' type='' tag='B' class='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="23700c21-4526-4a0a-ace8-04749a280401" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d7185444-99fb-44a4-a30c-3a5125624239" CvTextArea="1541, 697, 40, 16" CvTextArgument="Total" CvType="Text" DesignTimeRectangle="1544, 695, 37, 20" FuzzySelectorArgument="&lt;webctrl id='template-html-shadow-host' tag='DIV' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='pcs-totals' shadowhostid='template-html-shadow-host' tag='TABLE' matching:class='fuzzy' fuzzylevel:class='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl shadowhostid='template-html-shadow-host' type='' tag='B' class='' aaname='Total' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Total' /&gt;" Guid="0ddf1338-a3a2-4e45-9512-45fd02af01f8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d871bec978a27517ddf19545bb0c677a.png" xmlns="">0KCFJ8cvq5Um0Fppsyc7TNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

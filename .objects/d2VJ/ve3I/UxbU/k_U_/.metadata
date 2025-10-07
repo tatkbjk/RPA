@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button 'Export'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "k_U_eXkgUkO0YQ9FGyS5qA",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/k_U_eXkgUkO0YQ9FGyS5qA",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/UxbUPQnMlkSZVBvi2PCDgg",
+  "Created": "2025-10-04T15:30:52.0212867Z",
+  "Updated": "2025-10-04T15:30:52.0212867Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

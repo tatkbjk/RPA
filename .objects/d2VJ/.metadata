@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Giới thiệu Zoho Inventory",
+  "Type": "App",
+  "Id": "d2VJBZvVsEeUyEwoAWx7Bg",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/d2VJBZvVsEeUyEwoAWx7Bg",
+  "Created": "2025-10-04T09:01:02.6081355Z",
+  "Updated": "2025-10-04T09:01:02.6081355Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

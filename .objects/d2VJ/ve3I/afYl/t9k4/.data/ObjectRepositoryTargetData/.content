@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AH_AQfEIpUyD4pGjKM6J2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="5e077bad-d91f-49cf-b26c-3e46bf54f0b6" CvTextArea="80, 584, 182, 17" CvTextArgument="Purchase Orders +" CvType="Text" DesignTimeRectangle="22, 573, 250, 38" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                                       Purchase Orders                                                  ' tag='A' /&gt;" Guid="d13af4dc-d964-476b-bc20-e3037c5a140f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6fb7ae3b3b70babc613810eae1f11376.png" xmlns="">0GKIM3mQ_YkuSHYYlDE_aKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

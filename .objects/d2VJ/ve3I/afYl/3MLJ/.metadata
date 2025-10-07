@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add New Row",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3MLJ-nXu3Uql_bkE5sWwjg",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/3MLJ-nXu3Uql_bkE5sWwjg",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/afYlnpCYxkqTodYbCRdGKw",
+  "Created": "2025-10-06T08:36:14.5438939Z",
+  "Updated": "2025-10-06T08:36:14.5438939Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

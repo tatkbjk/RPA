@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xK2oRFEi7UGM1gV_Aha3HQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="fa1b6433-d49c-4d36-a8e2-4ce55c069fe4" CvElementArea="544, 931, 82, 44" CvTextArea="559, 944, 52, 20" CvTextArgument="Export" CvType="Button" DesignTimeRectangle="547, 932, 77, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember404' tag='BUTTON' /&gt;" Guid="3c043903-2c2b-4af3-950b-60051f48d297" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="522, 901, 875, 100" FuzzySelectorArgument="&lt;webctrl class='modal-footer' parentid='ember397' tag='DIV' type='' aaname=' ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Export&amp;#xA;Cancel' /&gt;" Guid="57d105ce-9a06-4d28-8b2b-d903b4b023ce" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd80d02e6ba43918a988b7ebf732058c.png" xmlns="">0h_XoX_1Qa0u2SLcXh21MCw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

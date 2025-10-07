@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Export Cancel",
+  "Type": "Element",
+  "Id": "70egfXpEdkmWr6hs8Xo6mA",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/70egfXpEdkmWr6hs8Xo6mA",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/UxbUPQnMlkSZVBvi2PCDgg",
+  "Created": "2025-10-04T10:24:59.8116957Z",
+  "Updated": "2025-10-04T10:24:59.8116957Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

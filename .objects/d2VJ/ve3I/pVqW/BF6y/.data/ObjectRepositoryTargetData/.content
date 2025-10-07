@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PMm7VoxRJE6KSwMWJz_llQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="bc8f042f-adb1-401a-81e1-b992e0c1a870" CvElementArea="529, 294, 634, 44" CvType="InputBox" DesignTimeRectangle="543, 299, 587, 35" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ac-ember789' tag='SPAN' type='' class='placeholder-text me-0 ac-selected-label' aaname='Select a Vendor ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a Vendor' /&gt;" Guid="83702bf2-c1d1-4af2-8d54-cb3dd7dbeb79" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bc8f042f-adb1-401a-81e1-b992e0c1a870" CvTextArea="307, 307, 112, 15" CvTextArgument="Vendor Name*" CvType="Text" DesignTimeRectangle="309, 305, 113, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='required' tag='SPAN' type='' aaname='Vendor Name' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vendor Name' /&gt;" Guid="5552ba80-482a-4b68-b4ca-58e8091577e3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd4ada910538d24548fed5e7b417cbdf.png" xmlns="">0kD_aWRvNMEKLMDT_04U4zg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

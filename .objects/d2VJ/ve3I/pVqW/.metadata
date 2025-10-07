@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Add New  Purchase Orders  Zoho Invento",
+  "Type": "Screen",
+  "Id": "pVqW9dheb0-xu1QvRBmuXw",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/pVqW9dheb0-xu1QvRBmuXw",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/ve3IWrDsdUGbXOFQTBg_mw",
+  "Created": "2025-10-05T18:16:53.8917388Z",
+  "Updated": "2025-10-05T18:16:53.8917388Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "XLSX (Microsoft Excel)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "R74eGQ6j7EyMpZ36IzSreQ",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/R74eGQ6j7EyMpZ36IzSreQ",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/UxbUPQnMlkSZVBvi2PCDgg",
+  "Created": "2025-10-04T09:51:17.4167178Z",
+  "Updated": "2025-10-04T09:51:17.4167178Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

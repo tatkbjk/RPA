@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ze13w1HlGUiOZiA2GyN2nw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="4bad5c6f-5597-4a13-a9d6-cd095dab5ee9" CvElementArea="1813, 195, 46, 44" CvTextArea="1826, 204, 20, 17" CvTextArgument="..." CvType="Button" DesignTimeRectangle="1817, 198, 39, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='More Actions' tag='BUTTON' type='button' /&gt;" Guid="ac8104ac-4e80-4111-8d11-7430e02dcdbd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1876, 177, 53, 852" FullSelectorArgument="&lt;webctrl id='rhs-menu-bar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rhs-menu-bar' tag='DIV' type='' class='body rhs-sidebar-menu' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='1' /&gt;" Guid="271b31c9-7ff1-47f3-ad39-866779ecfdd9" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-1" Y="-4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc93431d56396271a59b792592a19e2c.png" xmlns="">03KlyJi134EytzVRQVEAjhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

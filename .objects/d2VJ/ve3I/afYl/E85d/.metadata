@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Quantity'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "E85dW_rohUaz263ptGYbQQ",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/E85dW_rohUaz263ptGYbQQ",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/afYlnpCYxkqTodYbCRdGKw",
+  "Created": "2025-10-07T21:04:14.4184585Z",
+  "Updated": "2025-10-07T21:04:14.4184585Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QiRiNbegt0GctSoGvLB_tg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="3ec8d730-0de1-4511-b14d-c774973927ef" CvElementArea="544, 931, 82, 44" CvTextArea="559, 944, 52, 20" CvTextArgument="Export" CvType="Button" DesignTimeRectangle="547, 932, 77, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember421' tag='BUTTON' /&gt;" Guid="1cd2fc22-82c7-471c-812c-efec6ac17c75" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="522, 88, 875, 813" FuzzySelectorArgument="&lt;webctrl class='modal-body' parentid='ember414' tag='DIV' type='' aaname=' ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='You can export your data from Zoho Inventory in CSV, XLS or XLSX format.&amp;#xA;Module&amp;#xA;Items&amp;#xA;All Items&amp;#xA;Specific Period&amp;#xA;Export Template &amp;#xA;Select an Export Template&amp;#xA;Export File Format&amp;#xA;CSV (Comma Separated Value)&amp;#xA;XLS (Microsoft Excel 1997-2004 Compatible)&amp;#xA;XLSX (Microsoft Excel)&amp;#xA;Include Sensitive Personally Identifiable Information (PII) while exporting.&amp;#xA;File Protection Password&amp;#xA;Note:  You can export only the first 25,000 rows. If you have more rows, please initiate a backup for the data in your Zoho Inventory organization, and download it. Backup Your Data' /&gt;" Guid="9dd6f7d9-2599-4568-885a-198c8eaa8ecd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="77a3ae47ff40d07d11c29382caa687ab.png" xmlns="">0u5uwynYNHEuLKB6wgrfY_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

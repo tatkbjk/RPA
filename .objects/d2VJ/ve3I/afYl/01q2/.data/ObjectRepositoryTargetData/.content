@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yioFdduC-Ee_0FtLyUG7Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="7c017d84-d788-44e9-8cf0-55da5c58adf9" CvTextArea="1541, 729, 38, 16" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="1401, 711, 189, 51" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='0.00' tag='DIV' /&gt;" Guid="665cc501-06ca-49e7-91d1-255153f2872f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7c017d84-d788-44e9-8cf0-55da5c58adf9" CvTextArea="964, 729, 74, 16" CvTextArgument="Sub Total" CvType="Text" DesignTimeRectangle="959, 711, 442, 51" FuzzySelectorArgument="&lt;webctrl class='total-label' tag='DIV' type='' aaname='Sub Total   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sub Total' /&gt;" Guid="9addeefd-61a7-4892-8db5-96dc45aa98c6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="db811002738c3edfdb747b475673990b.png" xmlns="">0jBEvkjJUHEq6aJf1HipwnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

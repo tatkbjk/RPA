@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ccrwJ8jxM0y4LChxzWk6Rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="fe102c86-b019-4c49-a9ce-6b9aa8774036" CvTextArea="574, 735, 175, 17" CvTextArgument="XLSX (Microsoft Excel)" CvType="Text" DesignTimeRectangle="576, 730, 175, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='XLSX (Microsoft Excel)' class='form-check-label' tag='LABEL' /&gt;" Guid="d85472a2-0459-4892-ac22-c226415aaf82" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fe102c86-b019-4c49-a9ce-6b9aa8774036" CvTextArea="546, 634, 148, 17" CvTextArgument="Export File Format*" CvType="Text" DesignTimeRectangle="528, 620, 863, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Export File Format' parentid='ember367' tag='DIV' type='' class='col-form-label required' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Export File Format' /&gt;" Guid="347abc08-617c-4c53-9db6-26ae11dab8f4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bbc1e1bb35a6b6ef47806b9b64550d0f.png" xmlns="">0dOlf4-84Q0eLSMAr7qfs6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

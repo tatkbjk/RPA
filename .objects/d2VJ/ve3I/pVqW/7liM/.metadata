@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Purchase Orders",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "7liMucif4kurSqM4Jtd3mw",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/7liMucif4kurSqM4Jtd3mw",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/pVqW9dheb0-xu1QvRBmuXw",
+  "Created": "2025-10-05T18:18:34.7754426Z",
+  "Updated": "2025-10-05T18:18:34.7754426Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

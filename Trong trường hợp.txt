@@ -1,0 +1,7 @@
+Trong trường hợp ngủ dậy trễ.
+
+File ExportItems dùng để lấy số lượng item trên zoho xuống mà check stock, lưu vào trong folder items (này t set trong chrome) --> cần cải thiện
+
+Sau khi check stock thì dùng file add_queue, file này sẽ tính toán xem item nào cần mua thêm để push lên queue (file này tuyệt cả là vời)
+
+File POs_creating: dùng tạo POs, ghi lại log (ở file BaoCaoPO.xlxs) và set transaction successful trên queue. File này chưa tối ưu (còn một số activity dư). NHƯNG MÀ CHẠY ĐC RỒI

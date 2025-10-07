@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5mVDnjJPn0ecIiLZXvzAZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="69f03124-e186-45ce-9352-a0873d903f24" CvTextArea="574, 735, 175, 17" CvTextArgument="XLSX (Microsoft Excel)" CvType="Text" DesignTimeRectangle="576, 730, 175, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='XLSX (Microsoft Excel)' class='form-check-label' tag='LABEL' /&gt;" Guid="4675a9bf-bfba-4db0-af1a-6d3c2b48296c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="69f03124-e186-45ce-9352-a0873d903f24" CvElementArea="547, 733, 24, 23" CvType="RadioButton" DesignTimeRectangle="551, 735, 18, 17" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl aaname='XLSX (Microsoft Excel)' name='d87736fe-0dd0-4453-86f0-ae2ec91d58b2' tag='INPUT' type='radio' /&gt;" Guid="bdf9326f-7879-44ff-a542-afc1981c540f" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6594584790f28f433d29d0a3f7686827.png" xmlns="">0xCHr-2w9E0mTwuRQTV8Cwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bCH3KDCR3UOO70GX2Qap7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="75f765ca-1db8-47e4-962f-f7c2e5d80beb" CvTextArea="80, 520, 130, 16" CvTextArgument="Purchase Orders" CvType="Text" DesignTimeRectangle="82, 515, 128, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                     Purchase Orders                   ' tag='SPAN' /&gt;" Guid="2d9cc892-bc2c-43b6-854e-ba4dcfb66cd2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="75f765ca-1db8-47e4-962f-f7c2e5d80beb" CvTextArea="80, 520, 130, 16" CvTextArgument="Purchase Orders" CvType="Text" DesignTimeRectangle="22, 508, 250, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                       Purchase Orders                                                  ' tag='A' type='' class='ember-view dropdown-item nav-link ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Purchase Orders' /&gt;" Guid="97979881-c2e7-44c1-a707-f194d6f3a470" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c874be8c17b59b5b89eb3918b6fc5632.png" xmlns="">0A59yWnpP9k2bxSez-S9TMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

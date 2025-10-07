@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9DNVJ7gq3UG0HyqpzhCp7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="c132ee00-a291-4531-8994-60d4054070b0" CvElementArea="544, 940, 82, 44" CvTextArea="559, 954, 52, 18" CvTextArgument="Export" CvType="Button" DesignTimeRectangle="547, 941, 77, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember637' tag='BUTTON' type='submit' class='btn btn-primary ember-view' aaname=' Export' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Export' /&gt;" Guid="e08e4a62-9d85-4907-af1f-23013557b2b7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="547, 836, 791, 46" FuzzySelectorArgument="&lt;webctrl parentid='ember630' tag='SPAN' type='' class='text-muted' aaname='You can export only the first 25,000 rows. If you have more rows, please initiate a backup for the data in your Zoho Inventory organization, and download it. ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='You can export only the first 25,000 rows. If you have more rows, please initiate a backup for the data in your Zoho Inventory organization, and download it. Backup Your Data' /&gt;" Guid="1e1dd647-e84e-44cb-bf83-76d64254e0d7" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dd41f4811b16c3a66829920e9e12863f.png" xmlns="">08sVdp96PoUWTtHe6kYC-Fw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

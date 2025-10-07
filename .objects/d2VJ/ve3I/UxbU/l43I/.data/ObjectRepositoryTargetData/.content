@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GBzgc1gjmkKVzCY-AGL5Gg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="0219f1b9-6727-4e31-ab1b-fe2423aaa6db" CvElementArea="595, 785, 357, 42" CvType="InputBox" DesignTimeRectangle="588, 852, 355, 38" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='ember-text-field ember-view form-control' aaname='File Protection Password' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="bf9786a3-39ea-4a12-8d75-d60fe8d2f32c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0219f1b9-6727-4e31-ab1b-fe2423aaa6db" CvTextArea="596, 844, 151, 16" CvTextArgument="Note: You can export" CvType="Text" DesignTimeRectangle="588, 815, 171, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='File Protection Password' class='col-form-label' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='File Protection Password' /&gt;" Guid="9ab47b7f-0ee7-4966-beb4-8619bbc4702c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9789f13ee4578ad1c0a5f4fb1c9696b5.png" xmlns="">0VSzLvOi_DkWd8k-xJUAG1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

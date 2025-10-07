@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uiUaP_6aN0yUHE7VteVdjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="2f77e942-b26f-40c7-9d95-48b7398e6e77" CvTextArea="80, 391, 82, 16" CvTextArgument="Purchases" CvType="Text" DesignTimeRectangle="38, 386, 124, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Purchases' tag='SPAN' type='' class='nav-name translatex-8 nav-text ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Purchases' /&gt;" Guid="80f8a419-2f47-4494-baee-ad9ca7fc0392" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2f77e942-b26f-40c7-9d95-48b7398e6e77" CvTextArea="80, 391, 82, 16" CvTextArgument="Purchases" CvType="Text" DesignTimeRectangle="22, 380, 250, 37" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='ember407' tag='BUTTON' type='button' class='accordion-button ' aaname='  Purchases   ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Purchases' /&gt;" Guid="27898c8c-3cf7-40c6-8d8f-aa50352c5ba9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="850acee4d308c4d1fc5e69c5a23d0308.png" xmlns="">0eZDMnpmn50qJlSF7_YLnUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

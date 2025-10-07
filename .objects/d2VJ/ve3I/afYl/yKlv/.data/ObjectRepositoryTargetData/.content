@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_Ray3p5NtEy9-pP_SL9pqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="9cce106a-4b7a-4c69-aecc-1f0c8f9db8fb" CvTextArea="575, 430, 55, 15" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="538, 416, 619, 42" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Search' tag='INPUT' /&gt;" Guid="05fc8731-349f-4db4-b356-f13c835638ec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9cce106a-4b7a-4c69-aecc-1f0c8f9db8fb" CvElementArea="530, 359, 637, 45" CvType="InputBox" DesignTimeRectangle="532, 360, 631, 42" FuzzySelectorArgument="&lt;webctrl parentid='ac-ember118' tag='DIV' type='' class='ac-selected form-control  ' aaname=' ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a Vendor' /&gt;" Guid="03a563ae-6ac4-4290-9651-3a5b739b1ba3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8154208e88f140f507f6f6d21c1185d2.png" xmlns="">0xwCuJY8p7EWAJoWVHD6q5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

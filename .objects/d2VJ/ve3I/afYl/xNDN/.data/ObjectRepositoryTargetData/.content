@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_FzTTD1VUEyd1NU1lex1FA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="97c331d7-dd85-4aa4-94a7-1e7dc9c6da97" CvElementArea="306, 969, 70, 43" CvTextArea="321, 982, 40, 16" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="309, 970, 66, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember678' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ember678' tag='BUTTON' type='submit' class='btn btn-primary ember-view' aaname=' Send' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Send' /&gt;" Guid="bc88b9c4-29ae-4853-b17b-50f008058a23" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Email | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="97c331d7-dd85-4aa4-94a7-1e7dc9c6da97" CvElementArea="383, 968, 86, 44" CvTextArea="399, 982, 55, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="387, 970, 80, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='btn btn-secondary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cancel' /&gt;" Guid="e09e1a76-7c04-40f0-b88f-ab28c1c9779c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a234e0c69e65931be87e93da7c48d5c4.png" xmlns="">0m7UUrEC5CEaAifd6v8kl_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

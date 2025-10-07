@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UbNQazkc4U-JOclU2InQpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="d7185444-99fb-44a4-a30c-3a5125624239" CvTextArea="1466, 881, 340, 19" CvTextArgument="PDF Template : 'Standard Template' Change" CvType="Text" DesignTimeRectangle="1468, 876, 339, 28" FullSelectorArgument="&lt;webctrl id='ember508' tag='DIV' /&gt;" Guid="bbf62f57-02a4-4f3b-b911-88dc531b39d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d7185444-99fb-44a4-a30c-3a5125624239" CvElementArea="20, 905, 252, 50" CvTextArea="49, 920, 148, 20" CvTextArgument="Configure Features" CvType="Button" DesignTimeRectangle="22, 907, 250, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Configure Features ' parentid='main-nav-tab' tag='A' type='' class='nav-link pe-2 d-flex align-items-center w-100 h-100' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Configure Features' /&gt;" Guid="f9a86447-042a-406a-a6e5-5958f28e00ab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7fbf88942154d2c2e39d997c264a05e.png" xmlns="">0fp8QJHYSY0iCVDeOKIhZag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

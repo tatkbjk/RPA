@@ -1,0 +1,498 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="POs_Creating" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="POs_Creating_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:eca="clr-namespace:Emgu.CV.Aruco;assembly=Emgu.CV" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>DocumentFormat.OpenXml.Office2010.ExcelAc</x:String>
+      <x:String>DocumentFormat.OpenXml</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>Microsoft.Office.Interop.Word</x:String>
+      <x:String>Emgu.CV.Aruco</x:String>
+      <x:String>Emgu.Util</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Windows.Documents</x:String>
+      <x:String>System.Windows.Media.Animation</x:String>
+      <x:String>System.Windows</x:String>
+      <x:String>System.Windows.Threading</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>DocumentFormat.OpenXml</AssemblyReference>
+      <AssemblyReference>DocumentFormat.OpenXml.Framework</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>Microsoft.Office.Interop.Word</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Emgu.CV</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationUI</AssemblyReference>
+      <AssemblyReference>System.Windows.Presentation</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="POs_Creating" sap:VirtualizedContainerService.HintSize="937.2,5661.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="poNumber" />
+      <Variable x:TypeArguments="x:String" Name="deliveryDateStr" />
+      <Variable x:TypeArguments="s:DateTime" Name="deliveryDate" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="qty" />
+      <Variable x:TypeArguments="x:String" Name="itemName" />
+      <Variable x:TypeArguments="x:String" Name="vendorStr" />
+      <Variable x:TypeArguments="scg:IEnumerable(ui:QueueItem)" Name="queueItems" />
+      <Variable x:TypeArguments="eca:Dictionary" Name="vendorsDict" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="thuta22411c@st.uel.edu.vn's workspace" sap:VirtualizedContainerService.HintSize="571.2,175.2" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" QueueItemStates="New" QueueName="PO_create" Result="[queueItems]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="571.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Sample Vendor = &quot; + queueItems(0).SpecificContent(&quot;Vendor&quot;).ToString]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Purchase Orders  Zoho Inventory" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="571.2,5288.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="537.6,5048.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each vendorStr" sap:VirtualizedContainerService.HintSize="504,4987.2" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[queueItems.&#xA;  Select(Function(q) q.SpecificContent(&quot;Vendor&quot;).ToString.Trim).&#xA;  Distinct().&#xA;  ToList()]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:String">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:String" Name="vendorStr" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="502.4,4864" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Object" Name="itemsOfVendor" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;VendorStr = '&quot; + vendorStr]" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="7e4a0395-21ec-42e6-a703-1ef9137d701a" ContentHash="Gp6uh2pjsU6J5kSxBlfCvg" CvElementArea="1717, 195, 89, 46" CvType="Button" DesignTimeRectangle="1719, 197, 85, 41" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' New' tag='BUTTON' type='' class='btn btn-primary d-flex align-items-center ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="5d43c36d-696a-40cf-b155-ce283a17229b" InformativeScreenshot="7948b74349f802c26d5198d1dd902e4b.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/VYUblUI9PUe02EG1piVuAg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="7e4a0395-21ec-42e6-a703-1ef9137d701a" CvElementArea="1717, 195, 89, 46" CvTextArea="1755, 210, 37, 16" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1756, 205, 35, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='New' class='ms-2' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="f29917eb-e939-4e9a-b5b5-fc4f47a05413" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select a Vendor'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="cc447c81-fe6f-4b9b-9ba7-079795f66c6d" ContentHash="KfTkb9vhB0u-mBAmvGApXQ" CvElementArea="530, 358, 633, 45" CvType="InputBox" DesignTimeRectangle="543, 364, 587, 35" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ac-ember118' tag='SPAN' type='' class='placeholder-text me-0 ac-selected-label' aaname='Select a Vendor ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a Vendor' /&gt;" Guid="05e63ddc-5806-4b19-849e-e1cd0b8ac325" InformativeScreenshot="fd4ada910538d24548fed5e7b417cbdf.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/nrsk_qnZpkqj9OGQk6NSKw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="cc447c81-fe6f-4b9b-9ba7-079795f66c6d" CvTextArea="306, 372, 113, 15" CvTextArgument="Vendor Name*" CvType="Text" DesignTimeRectangle="309, 370, 113, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ab4494735' tag='SPAN' type='' class='required' aaname='Vendor Name' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vendor Name' /&gt;" Guid="9d7b83ea-89b3-48b2-b961-52535d1f27b7" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Select a Vendor'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Text="[vendorStr + &quot;[k(enter)]&quot;]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="9cce106a-4b7a-4c69-aecc-1f0c8f9db8fb" ContentHash="_Ray3p5NtEy9-pP_SL9pqg" CvTextArea="575, 430, 55, 15" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="538, 416, 619, 42" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Search' tag='INPUT' /&gt;" Guid="05fc8731-349f-4db4-b356-f13c835638ec" InformativeScreenshot="8154208e88f140f507f6f6d21c1185d2.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/yKlvuuXlckuqqf1l85SU_A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="9cce106a-4b7a-4c69-aecc-1f0c8f9db8fb" CvElementArea="530, 359, 637, 45" CvType="InputBox" DesignTimeRectangle="532, 360, 631, 42" FuzzySelectorArgument="&lt;webctrl parentid='ac-ember118' tag='DIV' type='' class='ac-selected form-control  ' aaname=' ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a Vendor' /&gt;" Guid="03a563ae-6ac4-4290-9651-3a5b739b1ba3" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;typed&quot; + vendorStr]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="468.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="s:DateTime">[deliveryDate]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="s:DateTime">[Now.AddDays(3)]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <Assign sap:VirtualizedContainerService.HintSize="468.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_5">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[deliveryDateStr]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[deliveryDate.ToString("dd/MM/yyyy")]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delivery Date'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="0d10b1f6-933b-46c6-a44c-a2805f8e0bff" ContentHash="dgRj8XJJ0ECc2v0V11ldjw" CvElementArea="530, 718, 411, 47" CvType="InputBox" DesignTimeRectangle="532, 720, 408, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Delivery Date' parentid='scroll-container' tag='INPUT' type='text' class='ember-text-field zf-date-picker date-picker ember-view form-control' placeholder='dd/MM/yyyy' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="82f83379-5523-41db-b154-9671c8dbe870" InformativeScreenshot="257cb560e00a7d80ab9f66d009a4c0a2.png" IsResponsive="True" Reference="WuxT4AKy_kC0t-5DkvLo5w/5hN7qxjiekmohcScEvawGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0d10b1f6-933b-46c6-a44c-a2805f8e0bff" CvTextArea="307, 734, 105, 18" CvTextArgument="Delivery Date" CvType="Text" DesignTimeRectangle="290, 720, 223, 43" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Delivery Date' parentid='scroll-container' tag='LABEL' type='' class='col-form-label col-lg-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Delivery Date' /&gt;" Guid="bd19bbfa-674d-42f4-bdba-39e33ba8fc31" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Delivery Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Text="[deliveryDateStr + &quot;[k(enter)]&quot;]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="0d10b1f6-933b-46c6-a44c-a2805f8e0bff" ContentHash="dgRj8XJJ0ECc2v0V11ldjw" CvElementArea="530, 718, 411, 47" CvType="InputBox" DesignTimeRectangle="532, 720, 408, 43" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aaname='Delivery Date' parentid='scroll-container' tag='INPUT' type='text' class='ember-text-field zf-date-picker date-picker ember-view form-control' placeholder='dd/MM/yyyy' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="82f83379-5523-41db-b154-9671c8dbe870" InformativeScreenshot="257cb560e00a7d80ab9f66d009a4c0a2.png" IsResponsive="True" Reference="WuxT4AKy_kC0t-5DkvLo5w/5hN7qxjiekmohcScEvawGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="0d10b1f6-933b-46c6-a44c-a2805f8e0bff" CvTextArea="307, 734, 105, 18" CvTextArgument="Delivery Date" CvType="Text" DesignTimeRectangle="290, 720, 223, 43" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Delivery Date' parentid='scroll-container' tag='LABEL' type='' class='col-form-label col-lg-2' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Delivery Date' /&gt;" Guid="bd19bbfa-674d-42f4-bdba-39e33ba8fc31" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <Assign sap:VirtualizedContainerService.HintSize="468.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Object">[itemsOfVendor]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Object">[queueItems.Where(Function(q) q.SpecificContent("Vendor").ToString.Trim = vendorStr).ToList()]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;Vendor=&quot; + vendorStr + &#xA;&quot; | Count=&quot; + CType(itemsOfVendor, System.Collections.Generic.List(Of UiPath.Core.QueueItem)).Count.ToString]" />
+                    <ui:ForEach x:TypeArguments="ui:QueueItem" CurrentIndex="{x:Null}" DisplayName="For Each currentQueueItem" sap:VirtualizedContainerService.HintSize="468.8,2053.6" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[CType(itemsOfVendor, System.Collections.Generic.List(Of UiPath.Core.QueueItem))]">
+                      <ui:ForEach.Body>
+                        <ActivityAction x:TypeArguments="ui:QueueItem">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="ui:QueueItem" Name="currentQueueItem" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,1923.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_6">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[itemName]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[currentQueueItem.SpecificContent("ItemName").ToString]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_7">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Int32">[qty]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Int32">[CInt(currentQueueItem.SpecificContent("QtyToOrder"))]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Name: &quot; + itemName]" />
+                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,270.4" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="10" Version="V5">
+                              <uix:NMouseScroll.SearchedElement>
+                                <uix:SearchedElement>
+                                  <uix:SearchedElement.Target>
+                                    <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="4161bcab-7c92-422b-a601-07c2e4dfeeb8" ContentHash="N4aKSKFLuEmimCSu_woCwg" CvTextArea="326, 576, 89, 16" CvTextArgument="Item Table" CvType="Text" DesignTimeRectangle="328, 571, 88, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='lineitems-table-body' tag='SPAN' /&gt;" Guid="4df424a0-f228-4769-ba97-7519a69284b4" InformativeScreenshot="c6b497222a68a26defe115d3fd17d266.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/UPqGnL24LUSobUdYRSPY0w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="4161bcab-7c92-422b-a601-07c2e4dfeeb8" CvTextArea="326, 576, 1270, 16" CvTextArgument="Item Table Bulk Actions" CvType="Text" DesignTimeRectangle="309, 554, 1300, 60" FuzzySelectorArgument="&lt;webctrl aaname=' ' type='' parentid='lineitems-table-body' tag='DIV' class='bg-mild-grey item-table-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Item Table&amp;#xA; Bulk Actions' /&gt;" Guid="8a33fddc-d50c-4683-8be7-e1d4b57d38b4" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:SearchedElement.Target>
+                                  <uix:SearchedElement.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:SearchedElement.Timeout>
+                                </uix:SearchedElement>
+                              </uix:NMouseScroll.SearchedElement>
+                            </uix:NMouseScroll>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sub Total'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="73aebe01-299d-4774-888f-ca7e943e87ea" ContentHash="5VRkBbaNbUeZ1vRgg94xPw" CvTextArea="1095, 424, 33, 15" CvTextArgument="1.00" CvType="Text" DesignTimeRectangle="1022, 410, 118, 42" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='ember-text-field text-end ember-view form-control ' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="56a019f2-ee43-4c8a-8e9d-694b1984133f" ImageBase64="" InformativeScreenshot="3b7f7a372d6821f13b54489b4ecad484.png" IsResponsive="True" Reference="WuxT4AKy_kC0t-5DkvLo5w/nXLIyR0czku_BtSOIQvxhA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="73aebe01-299d-4774-888f-ca7e943e87ea" CvTextArea="824, 424, 139, 15" CvTextArgument="Select an account" CvType="Text" DesignTimeRectangle="826, 418, 162, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Select an account ' type='' tag='SPAN' class='placeholder-text me-0 ac-selected-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select an account' /&gt;" Guid="f6cde060-f216-4339-8249-e47979e95ff4" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '&quot;" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Text="[qty.ToString()]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" ContentHash="ArtsREBuTki4GWyULVpM8A" CvTextArea="1095, 424, 33, 15" CvTextArgument="1.00" CvType="Text" DesignTimeRectangle="1022, 410, 118, 42" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='ember-text-field text-end ember-view form-control ' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="179c656a-ea5d-46c7-961e-f486cc20e369" InformativeScreenshot="2962974bb98b48efcdbf42ebea6abcd4.png" IsResponsive="True" Reference="WuxT4AKy_kC0t-5DkvLo5w/ySCzJsQMREulITu49GQKPQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="73aebe01-299d-4774-888f-ca7e943e87ea" CvTextArea="824, 424, 139, 15" CvTextArgument="Select an account" CvType="Text" DesignTimeRectangle="826, 418, 162, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Select an account ' type='' tag='SPAN' class='placeholder-text me-0 ac-selected-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select an account' /&gt;" Guid="4991df20-44de-40df-b7be-295e6dc2d18d" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Item Details'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" ContentHash="RZWq_yJypkGeukW9-p5qvg" CvTextArea="386, 422, 236, 18" CvTextArgument="Type or click to select an item." CvType="Text" DesignTimeRectangle="378, 410, 436, 66" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' /&gt;&lt;webctrl id='ember915' tableRow='2' tag='TEXTAREA' /&gt;" Guid="01c6cb6c-7439-4839-b635-5f38b5b80c59" InformativeScreenshot="93c893494a333572140cde006046684d.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/m8xvDd8_akSAR66GD9aLUw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" CvElementArea="306, 513, 197, 44" CvType="InputBox" DesignTimeRectangle="309, 515, 157, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Add New Row' tag='A' type='' class='btn btn-md ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add New Row' /&gt;" Guid="42d62ab2-bd09-4e17-a98d-e088723af08a" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Item Details'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Text="[itemName]" Version="V5">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" ContentHash="tqt_WuD1xUWE2JsrJOL42g" CvTextArea="386, 422, 236, 18" CvTextArgument="Type or click to select an item." CvType="Text" DesignTimeRectangle="378, 410, 436, 66" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' /&gt;&lt;webctrl id='ember915' tableRow='2' tag='TEXTAREA' /&gt;" Guid="8c7ede01-d5e2-434d-93ab-a1a360453b08" InformativeScreenshot="f8c787d75fc0e98e2323e82c3520ea11.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/d0nZVnaXfEmfz-HUt-0Uqg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" CvElementArea="306, 513, 197, 44" CvType="InputBox" DesignTimeRectangle="309, 515, 157, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Add New Row' tag='A' type='' class='btn btn-md ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add New Row' /&gt;" Guid="72d36fa0-5cce-411b-a83d-80a1d66ff2b0" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,237.6" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5">
+                              <uix:NKeyboardShortcuts.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NKeyboardShortcuts.VerifyOptions>
+                            </uix:NKeyboardShortcuts>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEach.Body>
+                    </ui:ForEach>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save and Send'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="e2d9256a-088e-4fc7-b1e2-7fbb64618632" ContentHash="80vTn5G31068_WEJYXTO6A" CvElementArea="441, 969, 146, 44" CvTextArea="455, 982, 117, 16" CvTextArgument="Save and Send" CvType="Button" DesignTimeRectangle="444, 970, 142, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="5f3fb7d5-7419-4319-b84b-bddcaef0e24d" InformativeScreenshot="e831926bec42f931c3ba1a773f543104.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/qgsQamYim0KWrsdQHNdo_w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="284, 950, 1620, 79" FuzzySelectorArgument="&lt;webctrl type='' class='btn-toolbar fixed-actions fill-container' parentid='scroll-container' tag='DIV' aaname='  ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save as Draft&amp;#xA;Save and Send&amp;#xA;Cancel&amp;#xA;PDF Template: &amp;apos;Standard Template&amp;apos;   Change' /&gt;" Guid="be382303-0425-45c2-8b86-c7d02219f3fb" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="97c331d7-dd85-4aa4-94a7-1e7dc9c6da97" ContentHash="_FzTTD1VUEyd1NU1lex1FA" CvElementArea="306, 969, 70, 43" CvTextArea="321, 982, 40, 16" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="309, 970, 66, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember678' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ember678' tag='BUTTON' type='submit' class='btn btn-primary ember-view' aaname=' Send' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Send' /&gt;" Guid="bc88b9c4-29ae-4853-b17b-50f008058a23" InformativeScreenshot="a234e0c69e65931be87e93da7c48d5c4.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/xNDNctUWekuVcUSYJnkmgQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Email | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="97c331d7-dd85-4aa4-94a7-1e7dc9c6da97" CvElementArea="383, 968, 86, 44" CvTextArea="399, 982, 55, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="387, 970, 80, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='btn btn-secondary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cancel' /&gt;" Guid="e09e1a76-7c04-40f0-b88f-ab28c1c9779c" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Purchase Orders'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,216.8" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="33b11796-e10e-42ef-9db6-88bf46f2f773" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="5e077bad-d91f-49cf-b26c-3e46bf54f0b6" ContentHash="AH_AQfEIpUyD4pGjKM6J2A" CvTextArea="80, 584, 182, 17" CvTextArgument="Purchase Orders +" CvType="Text" DesignTimeRectangle="22, 573, 250, 38" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                                       Purchase Orders                                                  ' tag='A' /&gt;" Guid="d13af4dc-d964-476b-bc20-e3037c5a140f" InformativeScreenshot="6fb7ae3b3b70babc613810eae1f11376.png" Reference="WuxT4AKy_kC0t-5DkvLo5w/t9k4LxGrNUK7ofYuZi0P9Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="dhdDmc52CEW122fcfg-CFg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKtSURBVDhPdZNZbA5RFMc9WCI8eBIvQuLRk3gV4kWCkBBLbCmpttoqTVNbLbGlaGpfGkstRZHWUkuURC2xluCrqFiaoNXlm5lvmZlvmbkz9yczfM0Qztu9Oed3/ud/7u2DlMdkImFIIVqBImBAn/8E0Bfo98elTKX0+J59xHbswunoMIAZv5MHAyOAcUAWUI6UdUhZD8ztBeG61+2PHy2tpBT9eDXAbWC/tO3HrqZ9tT99MlMPH0nzfC2xnRXEDxzC6eyKA9MzsoYA+xJXrxEp24C0LJm4eYvI2jLUvAKU7Fy0FcVEt5VjnK5BKyrGqD7lNarqHcOTnW5+KdSC5Vhv3hJemIV58RJWqAWn8weu3oNMdXtFJK42EFm/ESlEEzAoAxgjvn3TlJw8Uk33UZbm4XR0QroL8X4LdvNSxOtisMNYr16j5hfiRqOfgZEZwDBX1z+oRStJNt5BLSzyE3FiuD9u4CpPkYnvgPSMRsnOQbS1RYEJGcAAXLcxumUrZu0FIhs24Xnyr5Cm6TdIP3kqgNygDwf1E9XEd+9FP3yE+P6Df9f+CimJbi8nca3BO1UGAYXJO3eJrF6LWX/Z3wLCaxKotW3cSIT0s+eI7+3eVXkQMMlqeZdWlxWQutfkG2mFQqRfNGPWXSa+Zy/aqjWoefkoS7IxztSA44SCgNFOV3c4vGCR/x56Zs1BWZyNZ2x081b0o8f8FabuP0A/XIWam4+r66kgYLz40mb0zJxNZN16wnPnY9bV+1sxzp4jVlGJVrraV6DmLvNhSPkkCJhqtbyzwouyfIO6p0wjPG8BWnGJb5px+ow3mrRbW5OOonTgOFeAsUHAcJlMvjWqT/ry9KqjiPb2mDTNkPdfPMeBHGAiMAoY2FscgEyWQrS4cd1GiBAwCxgK9P87NxM/AcJOzMGxkaasAAAAAElFTkSuQmCC" InformativeScreenshot="d62f0a6a4b4bf9edd831eaaee355209e.jpg" Reference="WuxT4AKy_kC0t-5DkvLo5w/afYlnpCYxkqTodYbCRdGKw" Selector="&lt;html app='chrome.exe' title='Purchase Orders | Zoho Inventory' /&gt;" Url="https://inventory.zoho.com/app/900689348#/purchaseorders?filter_by=Status.All&amp;per_page=25&amp;sort_column=created_time&amp;sort_order=D" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
