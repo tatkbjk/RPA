@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="RZWq_yJypkGeukW9-p5qvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="zA2rLMSzpkyfHUXQSbSTVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" CvTextArea="386, 422, 236, 18" CvTextArgument="Type or click to select an item." CvType="Text" DesignTimeRectangle="378, 410, 436, 66" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' /&gt;&lt;webctrl id='ember915' tableRow='2' tag='TEXTAREA' /&gt;" Guid="01c6cb6c-7439-4839-b635-5f38b5b80c59" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="fb3628c5-d594-4cf2-b004-121604b8c676" CvElementArea="349, 271, 531, 44" CvType="InputBox" DesignTimeRectangle="350, 272, 529, 42" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='bulk-select-textarea' tag='TEXTAREA' /&gt;" Guid="17efcb35-18d5-4796-8e17-7626dc128c70" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" CvElementArea="306, 513, 197, 44" CvType="InputBox" DesignTimeRectangle="309, 515, 157, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Add New Row' tag='A' type='' class='btn btn-md ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add New Row' /&gt;" Guid="42d62ab2-bd09-4e17-a98d-e088723af08a" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="fb3628c5-d594-4cf2-b004-121604b8c676" CvTextArea="347, 204, 176, 18" CvTextArgument="Add Items in Bulk" CvType="Text" DesignTimeRectangle="350, 197, 173, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='modal-title ' aaname=' Add Items in Bulk ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Add Items in Bulk' /&gt;" Guid="4d9e2292-e474-4e41-95c8-98249ca489e9" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="93c893494a333572140cde006046684d.png" xmlns="">0OGARsztghkCpDtp_RwlgsA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="0cdbf549f312f7a79fc276e47fe50e6f.png" xmlns="">0pR30gpGUokS2u0jSvQrOMA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

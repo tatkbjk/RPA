@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ArtsREBuTki4GWyULVpM8A" Reference="WuxT4AKy_kC0t-5DkvLo5w/ySCzJsQMREulITu49GQKPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="4VCg561ECkqLd786KCR6jA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="b416d0ca-6456-47fc-aa0b-4407907584ac" CvTextArea="1095, 424, 33, 15" CvTextArgument="1.00" CvType="Text" DesignTimeRectangle="1022, 410, 118, 42" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='ember-text-field text-end ember-view form-control ' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="179c656a-ea5d-46c7-961e-f486cc20e369" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="211186cb-6b94-4aae-a5dd-7831650b7abc" CvElementArea="1402, 342, 154, 47" CvType="InputBox" DesignTimeRectangle="1449, 355, 60, 20" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ember436' tag='INPUT' type='text' class='ember-text-field text-end ember-view text-center' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3e9c5035-990d-4f15-9ef5-5cb7cd0cf1dc" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="73aebe01-299d-4774-888f-ca7e943e87ea" CvTextArea="824, 424, 139, 15" CvTextArgument="Select an account" CvType="Text" DesignTimeRectangle="826, 418, 162, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Select an account ' type='' tag='SPAN' class='placeholder-text me-0 ac-selected-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select an account' /&gt;" Guid="4991df20-44de-40df-b7be-295e6dc2d18d" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="211186cb-6b94-4aae-a5dd-7831650b7abc" DesignTimeRectangle="923, 351, 476, 26" ElementType="Text" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl class='item-name' parentid='modal-wrapper' tag='SPAN' type='' aaname='*{0}*' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&quot;, itemName)]" Guid="d918489e-59f0-49f0-b3cc-c3fa9cf71a01" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="2962974bb98b48efcdbf42ebea6abcd4.png" xmlns="">0w6_VcTTRwEiNJAbgrHQJiA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="42d47d5b1a02fee832ea645c14af5e8d.png" xmlns="">0Q4vm5YJAm0KqhZS6rlUMKA</imageRef>
     </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="*" Name="itemName" />
+    </scg:List>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

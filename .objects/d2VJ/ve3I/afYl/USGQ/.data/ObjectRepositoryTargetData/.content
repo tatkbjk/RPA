@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8vngluXpB0ek_J-LQH02hA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="683bc97a-6b34-482e-8109-c2fddf22fc60" CvElementArea="510, 888, 186, 44" CvType="Button" DesignTimeRectangle="513, 890, 181, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='lineitems-table-body' tag='BUTTON' type='button' /&gt;" Guid="0747594a-a91a-4a4d-8c1a-eb3dee06e806" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="683bc97a-6b34-482e-8109-c2fddf22fc60" CvElementArea="306, 888, 197, 43" CvType="InputBox" DesignTimeRectangle="309, 890, 157, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Add New Row' tag='A' type='' class='btn btn-md ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add New Row' /&gt;" Guid="64981164-fd86-49e3-8c0e-9e72c2f61e77" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="69ced506b8ec99c0c79a00a09b5abcfe.png" xmlns="">0XrbcUf3zQkKzlAlR1a6QzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

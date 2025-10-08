@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HHGrsYJV_0aodaTjarv5rA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="99b40230-3a58-40b4-8923-231e40355628" CvTextArea="1095, 590, 33, 16" CvTextArgument="1.00" CvType="Text" DesignTimeRectangle="1022, 577, 118, 42" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='ember-text-field text-end ember-view form-control ' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e673bbbc-35f1-47f3-a977-ead5f5257116" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="99b40230-3a58-40b4-8923-231e40355628" CvTextArea="824, 590, 139, 16" CvTextArgument="Select an account" CvType="Text" DesignTimeRectangle="826, 585, 162, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='lineitems-section' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Select an account ' type='' tag='SPAN' class='placeholder-text me-0 ac-selected-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select an account' /&gt;" Guid="f3c5e88a-8180-4472-b00d-490dab3347e6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9eac68dedcf43e26eb27804d62cd03ba.png" xmlns="">04ww_MehITk2oWMrH047rfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

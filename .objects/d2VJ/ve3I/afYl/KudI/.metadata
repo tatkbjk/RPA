@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select an account",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KudIu6HouU6chsZ5JL2MvQ",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/KudIu6HouU6chsZ5JL2MvQ",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/afYlnpCYxkqTodYbCRdGKw",
+  "Created": "2025-10-08T06:56:48.5757937Z",
+  "Updated": "2025-10-08T06:56:48.5757937Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

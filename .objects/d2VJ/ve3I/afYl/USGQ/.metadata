@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Items in Bulk",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "USGQ06xcTkC41Smm3vqIug",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/USGQ06xcTkC41Smm3vqIug",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/afYlnpCYxkqTodYbCRdGKw",
+  "Created": "2025-10-08T05:44:02.2015765Z",
+  "Updated": "2025-10-08T05:44:02.2015765Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
