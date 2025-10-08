@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select a Vendor",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "C_GyxG_AjEKlYfoZwuHKxA",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/C_GyxG_AjEKlYfoZwuHKxA",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/KN4L1i-wrkGtGhzhdNXdAw",
+  "Created": "2025-10-08T11:10:42.4127534Z",
+  "Updated": "2025-10-08T11:10:42.4127534Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

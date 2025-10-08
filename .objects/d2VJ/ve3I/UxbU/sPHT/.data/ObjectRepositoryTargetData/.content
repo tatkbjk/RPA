@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Ze13w1HlGUiOZiA2GyN2nw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="oCepj_o8eEmkdxPyLJN1JA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="4bad5c6f-5597-4a13-a9d6-cd095dab5ee9" CvElementArea="1813, 195, 46, 44" CvTextArea="1826, 204, 20, 17" CvTextArgument="..." CvType="Button" DesignTimeRectangle="1817, 198, 39, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='More Actions' tag='BUTTON' type='button' /&gt;" Guid="ac8104ac-4e80-4111-8d11-7430e02dcdbd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="e715ddc3-2c3c-4781-a0d8-2979976001e5" CvElementArea="1810, 232, 45, 44" CvTextArea="1822, 240, 20, 18" CvTextArgument="..." CvType="Button" DesignTimeRectangle="1812, 236, 39, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='More Actions' tag='BUTTON' type='button' /&gt;" Guid="05095941-3d66-4059-8b2a-34162527e522" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="1876, 177, 53, 852" FullSelectorArgument="&lt;webctrl id='rhs-menu-bar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rhs-menu-bar' tag='DIV' type='' class='body rhs-sidebar-menu' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='1' /&gt;" Guid="271b31c9-7ff1-47f3-ad39-866779ecfdd9" SearchSteps="Selector, FuzzySelector" />
+          <Target CVScreenId="e715ddc3-2c3c-4781-a0d8-2979976001e5" CvElementArea="1713, 232, 89, 45" CvType="Button" DesignTimeRectangle="1714, 235, 85, 41" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' New' tag='BUTTON' type='' class='btn btn-primary d-flex align-items-center ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="98329e40-d7a7-4b45-8c88-2514508dee32" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <TargetAnchorable.PointOffset>
-        <PointOffset X="-1" Y="-4" />
-      </TargetAnchorable.PointOffset>
-      <imageRef attrName="InformativeScreenshot" originalValue="cc93431d56396271a59b792592a19e2c.png" xmlns="">03KlyJi134EytzVRQVEAjhw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="f8de17e3014cb2616d26a5ebd6bcdddf.png" xmlns="">0dWcFIlDnBU6fQZ53IqyZlg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

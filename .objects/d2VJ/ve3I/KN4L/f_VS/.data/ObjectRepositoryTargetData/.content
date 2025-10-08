@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1B7X-s5-N06K6UL4fP2HaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="c9bfcebb-abbd-450c-a91c-23fb23a0a798" CvTextArea="390, 416, 89, 16" CvTextArgument="Item Table" CvType="Text" DesignTimeRectangle="391, 412, 88, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='lineitems-table-body' tag='SPAN' /&gt;" Guid="76ea6f11-29e3-44cd-84c3-774c4b8f742f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c9bfcebb-abbd-450c-a91c-23fb23a0a798" CvTextArea="390, 416, 1270, 16" CvTextArgument="Item Table Bulk Actions" CvType="Text" DesignTimeRectangle="372, 396, 1300, 60" FuzzySelectorArgument="&lt;webctrl aaname=' ' type='' parentid='lineitems-table-body' tag='DIV' class='bg-mild-grey item-table-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Item Table&amp;#xA; Bulk Actions' /&gt;" Guid="2572d654-cb86-4dfc-97c1-25832c719498" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef941cb73e16a627ebf2c10a1350a954.png" xmlns="">0f3fxIo_100aWtN_J0matxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

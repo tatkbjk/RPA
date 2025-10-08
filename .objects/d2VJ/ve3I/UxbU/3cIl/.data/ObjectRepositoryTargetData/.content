@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iuY7BaNBR0SeSun_SmRK0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="c077c8db-cd34-4913-b2f2-11bdb6e3f407" CvTextArea="576, 534, 147, 17" CvTextArgument="Export File Format*" CvType="Text" DesignTimeRectangle="557, 521, 863, 41" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Export File Format' parentid='ember520' tag='DIV' /&gt;" Guid="a0fa92f6-d157-4c92-96fc-c3dc2ced5512" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Items | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c07422034fe45d2a17ef0c4915cc58dd.png" xmlns="">0KsUgsiZp2k6SvKb3IozFig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

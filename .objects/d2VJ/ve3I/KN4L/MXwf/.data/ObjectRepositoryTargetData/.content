@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3xbt3WpoVkudSDefijQHvQ" Reference="WuxT4AKy_kC0t-5DkvLo5w/MXwf_T48tEKxpFjbt_wpRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="48c519b3-b244-49f9-b106-ce618a2b90ca" CvType="AnyWordGroup" DesignTimeRectangle="1640, 790, 101, 20" FullSelectorArgument="&lt;webctrl id='template-html-shadow-host' tag='DIV' /&gt;&lt;webctrl class='pcs-totals' shadowhostid='template-html-shadow-host' tag='TABLE' /&gt;&lt;webctrl parentid='tmp_total' shadowhostid='template-html-shadow-host' tableRow='2' tag='B' /&gt;" Guid="9349c7dd-8a9b-4bf3-b024-cbce015b8027" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="412da6de-0064-40c8-9686-6d2c4988da0c" CvTextArea="1554, 791, 38, 15" CvTextArgument="Total" CvType="Text" DesignTimeRectangle="1554, 790, 38, 20" FuzzySelectorArgument="&lt;webctrl id='template-html-shadow-host' tag='DIV' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='pcs-totals' shadowhostid='template-html-shadow-host' tag='TABLE' matching:class='fuzzy' fuzzylevel:class='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl shadowhostid='template-html-shadow-host' type='' tag='B' class='' aaname='Total' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Total' /&gt;" Guid="b28e4c69-c626-4538-b212-243ba41467cb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c13c424b2df9fdc541a327ed3b3193b6.png" xmlns="">0gh8OdwwuoUG-nIPsLhD4YQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="drZSn0zxA0-upnTiQBUSXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="2fbb0df9-f6ae-4072-98c8-ed60fff67296" CvTextArea="450, 512, 235, 18" CvTextArgument="Type or click to select an item." CvType="Text" DesignTimeRectangle="450, 512, 237, 18" ElementType="InputBox" Guid="46961267-ec1e-4839-b3a8-42aadb2c362c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="20648fca-8ea1-4a8e-9955-36b75d849ce3" CvElementArea="370, 603, 198, 44" CvType="InputBox" DesignTimeRectangle="372, 606, 157, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Add New Row' tag='A' type='' class='btn btn-md ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add New Row' /&gt;" Guid="609088e6-a050-4a79-8cec-54dad5216690" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14d18d60f9212a91ec0e633f6f6f0b52.png" xmlns="">0TQ59leQkzUerzGYb7tPjdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

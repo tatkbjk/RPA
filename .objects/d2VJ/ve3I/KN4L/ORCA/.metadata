@@ -1,0 +1,13 @@
+﻿{
+  "Name": "PURCHASE ORDER",
+  "Type": "Element",
+  "Id": "ORCAk6Z98kOiuWK9qBFbeA",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/ORCAk6Z98kOiuWK9qBFbeA",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/KN4L1i-wrkGtGhzhdNXdAw",
+  "Created": "2025-10-08T11:29:45.9843341Z",
+  "Updated": "2025-10-08T11:29:45.9843341Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

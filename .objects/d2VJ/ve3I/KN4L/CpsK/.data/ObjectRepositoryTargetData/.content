@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ukAvEZXHEkiqL3z_GT8GlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="8139b6cf-da21-4f07-aaa8-0ab6e18e596a" CvElementArea="505, 962, 146, 44" CvTextArea="520, 976, 116, 16" CvTextArgument="Save and Send" CvType="Button" DesignTimeRectangle="507, 965, 142, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="9308322c-445a-417d-824e-a88ac7dc86f4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="347, 945, 1552, 79" FuzzySelectorArgument="&lt;webctrl type='' class='btn-toolbar fixed-actions fill-container' parentid='scroll-container' tag='DIV' aaname='  ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save as Draft&amp;#xA;Save and Send&amp;#xA;Cancel&amp;#xA;PDF Template: &amp;apos;Standard Template&amp;apos;   Change' /&gt;" Guid="c04011ff-e06a-450b-ad08-4c654814e9a8" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e0031e68a812785866eb15d84c2f7351.png" xmlns="">0PHVbh8fezkq4TFetTT2BWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

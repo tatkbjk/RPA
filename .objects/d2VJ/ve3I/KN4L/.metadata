@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Purchase Orders  Zoho Inventory",
+  "Type": "Screen",
+  "Id": "KN4L1i-wrkGtGhzhdNXdAw",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/KN4L1i-wrkGtGhzhdNXdAw",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/ve3IWrDsdUGbXOFQTBg_mw",
+  "Created": "2025-10-08T11:09:07.0846555Z",
+  "Updated": "2025-10-08T11:09:07.0846555Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

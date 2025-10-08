@@ -1,0 +1,13 @@
+﻿{
+  "Name": "VND60,000.00",
+  "Type": "Element",
+  "Id": "MXwf_T48tEKxpFjbt_wpRw",
+  "Reference": "WuxT4AKy_kC0t-5DkvLo5w/MXwf_T48tEKxpFjbt_wpRw",
+  "ParentRef": "WuxT4AKy_kC0t-5DkvLo5w/KN4L1i-wrkGtGhzhdNXdAw",
+  "Created": "2025-10-08T11:31:37.0298705Z",
+  "Updated": "2025-10-08T11:31:37.0298705Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

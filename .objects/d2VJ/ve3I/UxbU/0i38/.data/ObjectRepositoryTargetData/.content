@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="-ZY9VmW-FEOkheXH4N9ReQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="pYGwmNnajU6kLbqBHtRh8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="7e150be0-34ac-4cef-a9a2-e91076ccc2c5" CvTextArea="79, 361, 45, 16" CvTextArgument="Items" CvType="Text" DesignTimeRectangle="82, 356, 42, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                     Items                   ' tag='SPAN' /&gt;" Guid="06155958-8e41-4fca-a0ac-fd0b4e1286a2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="77a9f6b6-88cc-4a61-a913-35cd559e7b22" CvTextArea="144, 334, 43, 15" CvTextArgument="Items" CvType="Text" DesignTimeRectangle="145, 329, 42, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                     Items                   ' tag='SPAN' /&gt;" Guid="a76ff6cc-3750-4be2-b4ae-8f401c9abf27" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Dashboard | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="7e150be0-34ac-4cef-a9a2-e91076ccc2c5" CvTextArea="79, 361, 45, 16" CvTextArgument="Items" CvType="Text" DesignTimeRectangle="22, 350, 250, 37" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                       Items                                                  ' tag='A' type='' class='ember-view dropdown-item nav-link ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Items' /&gt;" Guid="a7a45dd0-cdf5-4275-bfd3-f7a4b3f3a952" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="77a9f6b6-88cc-4a61-a913-35cd559e7b22" CvTextArea="144, 289, 45, 16" CvTextArgument="Items" CvType="Text" DesignTimeRectangle="101, 285, 86, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Items' tag='SPAN' type='' class='nav-name translatex-8 nav-text ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Items' /&gt;" Guid="80519439-7d96-4cd0-9d9e-36f2aa4b3c37" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="957dc6c2a23e0f42787446b3b9c8088d.png" xmlns="">0qiJmhEQsgkiOXWEzX7MW7w</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="9279ea0af19b498a5c876b8062f67090.png" xmlns="">0d2-WhpoHAECYkYR0nR7dPw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

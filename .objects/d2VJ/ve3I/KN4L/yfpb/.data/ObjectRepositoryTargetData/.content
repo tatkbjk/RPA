@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="c085OAKJh0S-QCNoZQx3DQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="48c519b3-b244-49f9-b106-ce618a2b90ca" CvTextArea="1462, 976, 340, 19" CvTextArgument="PDF Template : 'Standard Template' Change" CvType="Text" DesignTimeRectangle="1463, 971, 339, 29" FuzzySelectorArgument="&lt;webctrl id='ember1313' tag='DIV' type='' class='ember-view float-end' aaname='PDF Template : &amp;apos;Standard Template&amp;apos; ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PDF Template : &amp;apos;Standard Template&amp;apos; Change' /&gt;" Guid="8c9e2e1d-d154-4594-bf18-c388f1236b12" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a3bab2a4302d5736551efbd113f01b8b.png" xmlns="">08UFSSnF7i0uwLHXjQMErHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

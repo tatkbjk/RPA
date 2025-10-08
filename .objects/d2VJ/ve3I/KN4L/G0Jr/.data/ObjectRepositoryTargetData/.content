@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="r8EmTjmJCkm2HfXmgTJX1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="66fac3ad-891a-4192-b1b5-35541ebd278b" CvElementArea="1713, 232, 89, 46" CvType="Button" DesignTimeRectangle="1714, 235, 85, 41" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' New' tag='BUTTON' type='' class='btn btn-primary d-flex align-items-center ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="a8d0b4fd-ed4f-4262-b998-eb2432b24133" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="66fac3ad-891a-4192-b1b5-35541ebd278b" CvElementArea="1713, 232, 89, 46" CvTextArea="1751, 247, 36, 16" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1751, 243, 35, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='New' class='ms-2' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="dcd5e5a3-5e71-452f-99f8-72c5b2c48332" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="46e6130c89773f265a089e417bebd57e.png" xmlns="">01TCqJ107Qk2PNeJ_i_-XJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KUpx-M4Px0OmltqjOqlwxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="7d3a168d-2cd5-4204-905d-84a5b25b24e3" CvType="AnyWordGroup" DesignTimeRectangle="1661, 826, 92, 23" FullSelectorArgument="&lt;webctrl id='template-html-shadow-host' tag='DIV' /&gt;&lt;webctrl shadowhostid='template-html-shadow-host' tag='TABLE' /&gt;&lt;webctrl parentid='tmp_entity_number' shadowhostid='template-html-shadow-host' tableRow='1' tag='B' /&gt;" Guid="74b94065-e92c-40cc-a9ae-5854f72b5e38" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7d3a168d-2cd5-4204-905d-84a5b25b24e3" CvTextArea="1351, 767, 405, 41" CvTextArgument="PURCHASE ORDER" CvType="Text" DesignTimeRectangle="1351, 756, 402, 64" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='template-html-shadow-host' tag='DIV' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl shadowhostid='template-html-shadow-host' tag='TABLE' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' /&gt;&lt;webctrl class='pcs-entity-title' shadowhostid='template-html-shadow-host' type='' tag='SPAN' aaname='PURCHASE ORDER' matching:class='fuzzy' fuzzylevel:class='0.0' matching:shadowhostid='fuzzy' fuzzylevel:shadowhostid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PURCHASE ORDER' /&gt;" Guid="50bdbd34-63d7-47e5-b65a-f08f8ffe9981" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0d058235362cbb39b2794bdf3e84eecf.png" xmlns="">08qXXeWNMpEiCUGQ0zekYTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

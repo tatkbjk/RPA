@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WvjfJNj5fUGlEEsGOVtY5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="inventory.zoho.com/app/900689348" CVScreenId="11cbf13f-c4a4-4c5b-90ab-09549f385c47" CvElementArea="600, 387, 620, 44" CvType="InputBox" DesignTimeRectangle="601, 389, 619, 42" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Search' tag='INPUT' /&gt;" Guid="ef3e3cfa-feb2-47c4-a256-4081fa78b894" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add New | Purchase Orders | Zoho Inventory' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="11cbf13f-c4a4-4c5b-90ab-09549f385c47" CvElementArea="594, 331, 634, 44" CvType="InputBox" DesignTimeRectangle="606, 337, 587, 35" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ac-ember573' tag='SPAN' type='' class='placeholder-text me-0 ac-selected-label' aaname='Select a Vendor ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select a Vendor' /&gt;" Guid="87352b35-e49d-4388-ac25-cc7e8ed8774f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c3fa4cf6eb2687bc59fcda4ef03a3215.png" xmlns="">0RLK5dKc7kUeRIVI2ZEZhqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
